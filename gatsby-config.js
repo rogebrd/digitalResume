@@ -5,6 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  plugins: [
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./data/`,
+      },
+    },
+  ],
 }
