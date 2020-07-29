@@ -6,12 +6,12 @@
 
 module.exports = {
   plugins: [
-    `gatsby-transformer-yaml`,
+    'gatsby-transformer-yaml',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `./data/`,
+        path: './data/',
       },
     },
   ],
-}
+};

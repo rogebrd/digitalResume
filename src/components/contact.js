@@ -1,5 +1,5 @@
-import React from "react"
-import YAMLData from "../../data/contact.yaml"
+import React from 'react';
+import YAMLData from '../../data/contact.yaml';
 
 const Contact = () => (
   <div>
@@ -7,6 +7,6 @@ const Contact = () => (
     <h2>{YAMLData.contact.email}</h2>
     <h2>{YAMLData.contact.phone}</h2>
   </div>
-)
+);
 
-export default Contact
+export default Contact;

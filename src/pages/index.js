@@ -1,6 +1,8 @@
-import React from "react"
-import Contact from "../components/contact"
+import React from 'react';
+import Contact from '../components/contact';
 
-export default function Home() {
-  return <Contact/>
-}
+const Home = () => (
+  <Contact/>
+);
+
+export default Home;
